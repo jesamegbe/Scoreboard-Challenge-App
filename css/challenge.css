@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  box-sizing: 0px;
+  margin-top: 56px;
+}
+
+h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  color: white;
+  font-size: 40px;
+  margin-top: 0px;
+}
+
+#home {
+  text-align: center;
+}
+
+#guest {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  max-width: 575px;
+  background-color: #1b244a;
+  margin: auto;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  padding-left: 48px;
+  padding-right: 48px;
+  border-radius: 16px;
+}
+
+h4 {
+  font-family: "cursed timer";
+  font-size: 90px;
+  font-weight: 400;
+  margin-top: 40px;
+  margin-bottom: 32px;
+  padding: 20px;
+  color: #f94f6d;
+  text-align: center;
+  background-color: #080001;
+  border-radius: 8px;
+}
+
+h5 {
+  font-family: "cursed timer";
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #9aabd8;
+  padding: 4px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+li {
+  display: inline-block;
+  margin-right: 0px;
+  padding: 12px;
+  border: 2px solid #9aabd8;
+  border-radius: 8px;
+}
+
+/* button {
+  font-family: "cursed timer";
+  font-weight: 400;
+  font-size: 18px;
+  background-color: none;
+} */

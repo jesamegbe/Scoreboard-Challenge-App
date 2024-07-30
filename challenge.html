@@ -1,0 +1,45 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basketball Scoreboard</title>
+    <link href="css/challenge.css" rel="stylesheet" />
+    <style>
+      @font-face {
+        font-family: "cursed timer";
+        src: url(css/fonts/CursedTimerUlil-Aznm.ttf);
+      }
+    </style>
+    
+  </head>
+  <body>
+    <div class="container">
+      <div id="home">
+        <h3>HOME</h3>
+        <h4 id="home-score">0</h4>
+        <div id="increase-home-score">
+            <ul>
+              <h5>
+                <li onclick="home01()">+1</li>
+                <li onclick="home02()">+2</li>
+                <li onclick="home03()">+3</li>
+              </h5>  
+            </ul>
+        </div>
+      </div>
+      <div id="guest">
+        <h3>GUEST</h3>
+        <h4 id="guest-score">0</h4>
+        <div id="increase-guest-score">
+            <ul>
+              <h5>
+                <li onclick="guest04()">+1</li>
+                <li onclick="guest05()">+2</li>
+                <li onclick="guest06()">+3</li>
+              </h5>  
+            </ul>
+      </div>
+    </div>
+    <script src="challenge.js"></script>
+  </body>
+</html>
